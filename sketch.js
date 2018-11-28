@@ -52,7 +52,7 @@ function Circle(){
     if (this.mappedVolume < 2){
     scale(frameCount/100* this.mappedVolume*10)}
     else {
-      scale(-frameCount/550);
+      scale(-frameCount/1000);
     }
 
 
